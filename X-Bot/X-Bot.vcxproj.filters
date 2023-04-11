@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\X-BOT">
+      <UniqueIdentifier>{b7f060c2-9f75-4350-82e6-491117da94ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\X-BOT">
+      <UniqueIdentifier>{d1d0e047-6613-4564-a993-4168efa0b5a7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Compteur.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="X212.h">
+      <Filter>Header Files\X-BOT</Filter>
+    </ClInclude>
+    <ClInclude Include="G990.h">
+      <Filter>Header Files\X-BOT</Filter>
+    </ClInclude>
+    <ClInclude Include="R234.h">
+      <Filter>Header Files\X-BOT</Filter>
+    </ClInclude>
+    <ClInclude Include="W000.h">
+      <Filter>Header Files\X-BOT</Filter>
+    </ClInclude>
+    <ClInclude Include="X213.h">
+      <Filter>Header Files\X-BOT</Filter>
+    </ClInclude>
+    <ClInclude Include="X215.h">
+      <Filter>Header Files\X-BOT</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Compteur.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="X212.cpp">
+      <Filter>Source Files\X-BOT</Filter>
+    </ClCompile>
+    <ClCompile Include="G990.cpp">
+      <Filter>Source Files\X-BOT</Filter>
+    </ClCompile>
+    <ClCompile Include="R234.cpp">
+      <Filter>Source Files\X-BOT</Filter>
+    </ClCompile>
+    <ClCompile Include="W000.cpp">
+      <Filter>Source Files\X-BOT</Filter>
+    </ClCompile>
+    <ClCompile Include="X213.cpp">
+      <Filter>Source Files\X-BOT</Filter>
+    </ClCompile>
+    <ClCompile Include="X215.cpp">
+      <Filter>Source Files\X-BOT</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
